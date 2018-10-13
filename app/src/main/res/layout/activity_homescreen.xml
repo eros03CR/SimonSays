@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+    <Button
+        android:id="@+id/playgamebutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="210dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/playgame"
+        app:layout_constraintBottom_toTopOf="@+id/highscorebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/background1" />
+
+    <Button
+        android:id="@+id/highscorebutton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="29dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/high_scores"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playgamebutton" />
+
+    <ImageView
+        android:id="@+id/background1"
+        android:layout_width="585dp"
+        android:layout_height="398dp"
+        android:layout_marginBottom="27dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/playgamebutton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside"
+        app:srcCompat="@drawable/wallpaper"
+        tools:ignore="ContentDescription" />
+
+</android.support.constraint.ConstraintLayout>

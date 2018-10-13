@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scorepage"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/player5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
+        android:layout_marginBottom="46dp"
+        android:text="@string/player5"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txt5"
+        app:layout_constraintTop_toBottomOf="@+id/player4" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginLeft="121dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text="@string/_5"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/player5"
+        app:layout_constraintEnd_toStartOf="@+id/player5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/player5" />
+
+    <TextView
+        android:id="@+id/gameovertitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/scores"
+        android:textAllCaps="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/player1"
+        app:layout_constraintStart_toStartOf="@+id/txt1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginLeft="121dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text="@string/_1"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/player1"
+        app:layout_constraintEnd_toStartOf="@+id/player1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/player1" />
+
+    <TextView
+        android:id="@+id/player1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/player1"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/player2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txt1"
+        app:layout_constraintTop_toBottomOf="@+id/gameovertitle" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginLeft="121dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text="@string/_2"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/player2"
+        app:layout_constraintEnd_toStartOf="@+id/player2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/player2" />
+
+    <TextView
+        android:id="@+id/player4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/player4"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/player5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txt4"
+        app:layout_constraintTop_toBottomOf="@+id/player3" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginLeft="121dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text="@string/_4"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/player4"
+        app:layout_constraintEnd_toStartOf="@+id/player4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/player4" />
+
+    <TextView
+        android:id="@+id/player3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
+        android:layout_marginBottom="13dp"
+        android:text="@string/player3"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/player4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txt3"
+        app:layout_constraintTop_toBottomOf="@+id/player2" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="121dp"
+        android:layout_marginLeft="121dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:text="@string/_3"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/player3"
+        app:layout_constraintEnd_toStartOf="@+id/player3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/player3" />
+
+    <TextView
+        android:id="@+id/player2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="97dp"
+        android:layout_marginBottom="13dp"
+        android:text="@string/player2"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/player3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txt2"
+        app:layout_constraintTop_toBottomOf="@+id/player1" />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="63dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/back"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/player5"
+        app:layout_constraintStart_toStartOf="@+id/txt5"
+        app:layout_constraintTop_toBottomOf="@+id/player5" />
+
+</android.support.constraint.ConstraintLayout>

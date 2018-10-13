@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Simon Says</string>
+    <string name="start">Start</string>
+    <string name="user">User:</string>
+    <string name="userID">user 1</string>
+    <string name="country">country</string>
+    <string name="currentScore">score1</string>
+    <string name="score">score</string>
+    <string name="playgame">play game</string>
+    <string name="high_scores">high scores</string>
+    <string name="_1">1</string>
+    <string name="scores">scores</string>
+    <string name="_5">5</string>
+    <string name="player5">player5</string>
+    <string name="player1">player1</string>
+    <string name="_2">2</string>
+    <string name="player4">player4</string>
+    <string name="player2">player2</string>
+    <string name="_3">3</string>
+    <string name="player3">player3</string>
+    <string name="_4">4</string>
+    <string name="back">Back</string>
+    <string name="begingame">Get Ready!</string>
+    <string name="game_over">game over</string>
+    <string name="name">Name</string>
+    <string name="player_name">player name</string>
+    <string name="save">save</string>
+    <string name="home">home</string>
+    <string name="go">GO!!</string>
+    <string name="title_activity_gameover">gameover</string>
+    <string name="title_activity_scores">scores</string>
+    <string name="title_activity_home">home</string>
+</resources>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".game"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <Button
+        android:id="@+id/startButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimary"
+        android:drawableStart="@android:drawable/ic_media_play"
+        android:drawableLeft="@android:drawable/ic_media_play"
+        android:text="@string/start"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currentScore"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/japanButton"
+        style="@android:style/Widget.DeviceDefault.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/japan_off"
+        app:layout_constraintBottom_toBottomOf="@+id/polandButton"
+        app:layout_constraintEnd_toEndOf="@+id/germanyButton"
+        app:layout_constraintStart_toStartOf="@+id/germanyButton"
+        app:layout_constraintTop_toTopOf="@+id/polandButton"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/polandButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/poland_off"
+        app:layout_constraintEnd_toEndOf="@+id/italyButton"
+        app:layout_constraintStart_toStartOf="@+id/italyButton"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/germanyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/germany_off"
+        app:layout_constraintEnd_toEndOf="@+id/turkeyButton"
+        app:layout_constraintStart_toStartOf="@+id/turkeyButton"
+        app:layout_constraintTop_toTopOf="@+id/italyButton"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/italyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="122dp"
+        android:layout_marginBottom="124dp"
+        android:background="@drawable/italy_off"
+        app:layout_constraintBottom_toBottomOf="@+id/brazilButton"
+        app:layout_constraintEnd_toEndOf="@+id/brazilButton"
+        app:layout_constraintStart_toStartOf="@+id/brazilButton"
+        app:layout_constraintTop_toTopOf="@+id/polandButton"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/turkeyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/turkey_off"
+        app:layout_constraintBottom_toTopOf="@+id/score"
+        app:layout_constraintStart_toStartOf="@+id/score"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/brazilButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/brazil_off"
+        app:layout_constraintBottom_toTopOf="@+id/score"
+        app:layout_constraintEnd_toEndOf="@+id/score"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/currentScore"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/startButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="58dp"
+        android:background="@android:color/darker_gray"
+        android:text="@string/currentScore"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/startButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/colorAccent"
+        android:text="@string/score"
+        android:textAllCaps="true"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/currentScore"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
+
